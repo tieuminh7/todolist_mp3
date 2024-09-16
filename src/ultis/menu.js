@@ -1,6 +1,13 @@
 import icons from "./icons";
 
-const { MdOutlineLibraryMusic } = icons;
+const {
+  MdOutlineLibraryMusic,
+  LuDisc3,
+  LuRadioTower,
+  FaNewspaper,
+  FaChartLine,
+} = icons;
+
 export const sidebarMenu = [
   {
     path: "mymusic",
@@ -11,16 +18,21 @@ export const sidebarMenu = [
     path: "",
     text: "Khám phá",
     end: true,
-    icons: <MdOutlineLibraryMusic size={24} />,
+    icons: <LuDisc3 size={24} />,
   },
   {
     path: "zing-chart",
     text: "Zing chart",
-    icons: <MdOutlineLibraryMusic size={24} />,
+    icons: <FaChartLine size={24} />,
+  },
+  {
+    path: "Live",
+    text: "Radio",
+    icons: <LuRadioTower size={24} />,
   },
   {
     path: "following",
     text: "Theo dõi",
-    icons: <MdOutlineLibraryMusic size={24} />,
+    icons: <FaNewspaper size={24} />,
   },
 ];
