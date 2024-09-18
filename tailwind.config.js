@@ -58,6 +58,14 @@ module.exports = {
           "slide-left2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;",
       },
     },
+    screen: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+      1600: "1600px",
+    },
   },
   plugins: [],
 };
