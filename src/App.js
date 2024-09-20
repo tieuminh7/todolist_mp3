@@ -1,4 +1,4 @@
-import { Home, Login, Public } from "./containers/public/";
+import { Home, Login, Public, Album } from "./containers/public/";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Route, Routes } from "react-router-dom";
@@ -20,6 +20,7 @@ function App() {
             <Route path={path.HOME} element={<Home />} />
             <Route path={path.LOGIN} element={<Login />} />
             <Route path={path.STAR} element={<Home />} />
+            <Route path={path.ALBUM_TITLE_PID} element={<Album />} />
           </Route>
         </Routes>
         <ToastContainer

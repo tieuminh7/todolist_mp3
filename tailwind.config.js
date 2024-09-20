@@ -66,6 +66,9 @@ module.exports = {
       "2xl": "1536px",
       1600: "1600px",
     },
+    flex: {
+      4: "4 4 0%",
+    },
   },
   plugins: [],
 };
